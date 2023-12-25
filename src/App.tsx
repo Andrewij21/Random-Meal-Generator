@@ -24,7 +24,7 @@ function App() {
       }
 
       const payload = await res.json();
-      console.log(payload.meals[0]);
+      // console.log(payload.meals[0]);
       setMeal(payload.meals[0]);
       setVisible(true);
     } catch (error) {
